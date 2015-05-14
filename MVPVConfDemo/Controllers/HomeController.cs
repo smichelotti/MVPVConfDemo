@@ -11,9 +11,6 @@ namespace MVPVConfDemo.Controllers
     {
         public ActionResult Index()
         {
-            Trace.TraceInformation("This is my information message.");
-            Trace.TraceWarning("This is my cool *warning* message.");
-
             return View();
         }
 
